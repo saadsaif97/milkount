@@ -1,7 +1,7 @@
 const withOffline = require('next-offline')
 
 const nextConfig = {
-  target: 'serverless',
+  target:  "experimental-serverless-trace",
 
   transformManifest: manifest => ['/'].concat(manifest), // add the homepage to the cache
 
