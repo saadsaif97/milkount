@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev -p 3004",
     "vercel": "echo 'Running as Vercel serverless'; vercel dev --listen 3004",
-    "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next build",
+    "build": "next build",
     "start": "next start -p 3004",
     "test": "echo 'Running Standard.js and Jasmine unit tests...\n' && yarn lint && yarn unit",
     "unit": "jasmine",
